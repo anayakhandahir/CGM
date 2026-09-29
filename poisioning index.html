@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css poisioning </title>
+    <style>
+        body{
+            padding-top:30px;
+            height:1000vh;
+        }
+    div{
+         border: solid 2px;
+       
+       } 
+       #fixed{
+        position:fixed;
+        top:0;
+       }
+       #relative{
+        position:relative;
+        padding:30px;
+       }
+       #absolute{
+        position:absolute;
+        top:0px;
+
+       }
+       #sticky{
+        position:sticky;
+        top:30px;
+       }
+    </style>
+</head>
+<body>
+    <div id="fixed">
+       fixed 
+    </div>
+    <div id="relative">
+        parent
+    
+        <div id="absolute">Absolute value</div>
+    </div>
+    <div id="sticky">
+       sticky
+    </div>
+</body>
+</html>
