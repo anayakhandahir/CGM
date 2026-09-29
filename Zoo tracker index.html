@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Zoo Rescue Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: hsl(200, 87%, 73%);
+            color: white;
+            padding: 29px;
+            padding-top: 70px;
+            height: 1000vh;
+        }
+
+        div {
+            border: 3px solid yellow;
+        }
+
+
+        .a {
+            background: lightblue;
+            color: black;
+            padding: 10px;
+            margin: 8px 0;
+            width: 220px;
+        }
+
+        #parent {
+            position: relative;
+            padding: 25px;
+
+        }
+
+        #child {
+            position: absolute;
+            top: 0;
+            border: 3px solid indianred;
+        }
+
+        #fixed {
+            position: fixed;
+            top: 0px;
+        }
+
+        #sticky {
+            position: sticky;
+            top: 30px;
+            margin-top: 30px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Zoo Rescue Tracker</h1>
+    <div id="sticky">
+
+        Look through them | Be happy | care about animals
+    </div>
+
+    <div class="a">Lion </div>
+    <div class="a">Eagal </div>
+    <div class="a">Penguin</div>
+    <div class="a">Dolphine</div>
+    <div class="a">parrots </div>
+
+    <div class="a">Giraffe - tall</div>
+    <div class=a>we Rescue an Eagle . he is safe </div>
+    <div class="a">Zebra - Healthy</div>
+
+    <div id="parent"> Rescued Animals
+        <div id="child">
+            BY US!!
+        </div>
+    </div>
+
+    <div id="fixed">
+        Animals
+    </div>
