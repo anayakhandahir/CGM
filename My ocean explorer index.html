@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Ocean Explorer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .card{
+            display:inline-block;
+            width:300px;
+            height: 300px;
+            margin:10px;
+            vertical-align:top;
+            min-height: 350px;
+            margin-top: 60px;
+           background-image: radial-gradient(darkblue,blue,white);
+        }
+        .spinner-border {
+            display: flex;
+            flex-direction:column;
+        }
+        .pagination{
+            justify-content: center;
+        }
+    </style>
+</head>
+<body style="background-color: aqua;">
+    <nav class="navbar navbar-expand-sm bg-light">
+        <a class="navbar-brand" href="https://oceanexplorer.noaa.gov/discover/deep-ocean-education-projects/">Ocean</a>
+        <ul class="navbar-nav flex-row">
+            <li class="nav-item" >
+                <a class="nav-link" href="">Science-Expoloration</a>
+            </li>
+            <li class="nav-item" >
+                <a class="nav-link" href="">Learn&discover</a>
+            </li>
+            <li class="nav-item" >
+                <a class="nav-link" href="">Multimedia</a>
+            </li>
+            <li class="nav-item" >
+                <a class="nav-link" href="">News</a>
+            </li>
+        </ul>
+    </nav>
+    <center>
+        <h1 style="color: azure;">Explore</h1>
+    <div class="spinner-border text-warning"role="status"></div>
+    <div class="spinner-border text-danger"role="status"></div>
+    <div class="spinner-border text-info"role="status"></div>
+   
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">About Marine Critical Minerals</h1>
+            <p class="card-text">Critical minerals are used in everything from defense systems and batteries to smartphones and medical devices.</p>
+            <a class="btn btn-light" href="https://oceanexplorer.noaa.gov/noaa-ocean-exploration-minerals/">Marine life</a>
+        </div>
+        </div>
+        <div class="card">
+        <div class="card-body">
+   <h1 class="card-title">Benthic Deepwater Animal</h1>
+            <p class="card-text">Organisms that live on, in, or near the bottom sediments of the deep ocean floor.</p>
+            <a class="btn btn-light" href="https://oceanexplorer.noaa.gov/data/animal-guide//">Benthic</a>
+        </div>
+    </div>
+    <ul class="pagination">
+        <li class="page-item">
+            <a class="page-link" href="#">Previous</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="#">4</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+        </li>
+    </ul>
+    </center>
+</body>
+</html>
